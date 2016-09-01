@@ -61,10 +61,10 @@ import twitter
 
 #Authorizing access to twitter api
 
-CONSUMER_KEY = 'oxZPoEFaRanHw2bFOaaWQvNQD'
-CONSUMER_SECRET = 'yF6c3MaRTDfnlmRO2KWyN72qHlKynSwxNDQT69foNMCiqqfq3W'
-OAUTH_TOKEN = '325682072-zEtRAYUT0O5RNLQOQjZBpabWbLyEy8Q727AoxKql'
-OAUTH_TOKEN_SECRET = 'EsxhxqBABHXNIRE3vpd9w4hwIZsN3j1cdckWrnO8iuVcv'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
